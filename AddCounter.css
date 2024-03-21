@@ -1,0 +1,30 @@
+.Wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.Wrapper button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+.count{
+    font-size: 20px;
+}
+button:disabled{
+    opacity: 0.6;
+}
+button.plus{
+    background-color: blue;
+}
+button.minus{
+    background-color: red;
+}
+h1{
+    margin: 14px;
+}
